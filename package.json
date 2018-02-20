@@ -22,10 +22,10 @@
     "url": "https://github.com/TheTrunk/bitcore-message-zelcash.git"
   },
   "dependencies": {
-    "bitcore-lib-zelcash": "git://github.com/TheTrunk/bictore-lib-zelcash#master"
+    "bitcore-lib-zelcash": "git://github.com/TheTrunk/bitcore-lib-zelcash#master"
   },
   "devDependencies": {
-    "bitcore-build-zelcash": "git://github.com/TheTrunk/bictore-build-zelcash#master",
+    "bitcore-build-zelcash": "git://github.com/TheTrunk/bitcore-build-zelcash#master",
     "brfs": "^1.3.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10"
