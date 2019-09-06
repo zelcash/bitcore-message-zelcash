@@ -1,6 +1,6 @@
 {
   "name": "bitcore-message-zelcash",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ZelCash Messages for Bitcore",
   "main": "index.js",
   "scripts": {
@@ -19,13 +19,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheTrunk/bitcore-message-zelcash.git"
+    "url": "https://github.com/zelcash/bitcore-message-zelcash.git"
   },
   "dependencies": {
-    "bitcore-lib-zelcash": "git://github.com/TheTrunk/bitcore-lib-zelcash#master"
+    "bitcore-lib-zelcash": "git://github.com/zelcash/bitcore-lib-zelcash#master"
   },
   "devDependencies": {
-    "bitcore-build-zelcash": "git://github.com/TheTrunk/bitcore-build-zelcash#master",
+    "bitcore-build-zelcash": "git://github.com/zelcash/bitcore-build-zelcash#master",
     "brfs": "^1.3.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10"
