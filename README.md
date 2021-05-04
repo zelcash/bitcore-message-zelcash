@@ -1,4 +1,4 @@
-# ZelCash Message Verification and Signing for Bitcore
+# Flux Message Verification and Signing for Bitcore
 
 
 bitcore-message-hush adds support for verifying and signing hush messages in [Node.js](http://nodejs.org/) and web browsers.
@@ -8,16 +8,16 @@ See [the main bitcore repo](https://github.com/bitpay/bitcore) for more informat
 ## Getting Started
 
 ```sh
-git clone https://github.com/zelcash/bitcore-message-zelcash.git
-cd bitcore-message-zelcash
+git clone https://github.com/runonflux/bitcore-message.git
+cd bitcore-message
 npm install --save
 ```
 
 To sign a message:
 
 ```javascript
-var bitcore = require('bitcore-lib-zelcash');
-var Message = require('bitcore-message-zelcash');
+var bitcore = require('bitcore-lib');
+var Message = require('bitcore-message');
 
 var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);

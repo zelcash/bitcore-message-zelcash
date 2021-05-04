@@ -9,8 +9,8 @@ Message Verification and Signing is implemented as a separate module and you mus
 For node projects:
 
 ```bash
-git clone https://github.com/zelcash/bitcore-message-zelcash.git
-cd bitcore-message-zelcash
+git clone https://github.com/runonflux/bitcore-message.git
+cd bitcore-message
 npm install --save
 ```
 
